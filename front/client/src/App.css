@@ -1,0 +1,306 @@
+button{
+  border: none;
+  cursor:pointer;
+  border-radius: 2px;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.2), 0 0.5px 2px 0 rgba(0,0,0,0.19);
+}
+
+button:hover{
+  box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 3px 5px 0 rgba(0,0,0,0.19);
+
+}
+
+.game-button{
+  margin-left: 1000px;
+}
+
+.header-main{
+  margin-top: 40px;
+}
+
+.shila-NFT{
+  display:flex;
+}
+
+.NFT-show-left{
+  width: 10%;
+
+  display: flex;
+
+  align-items: center;
+}
+.NFT-show-left-icon{
+
+  width: 100%;
+}
+.NFT-show-right-icon{
+
+  width: 100%;
+}
+.NFT-show-right{
+  width: 10%;
+  display: flex;
+
+  align-items: center;
+
+}
+
+.exit-NFT-show{
+  position:absolute;
+  margin-left:100%;
+
+}
+
+.NFT-show-NFT{
+  height: 100%;
+  width: 70%;
+
+}
+
+.NFT-show-container{
+
+  display:flex;
+  height: 85%;
+  position: relative;
+}
+
+.NFT-fight{
+  margin-top: 50px;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  background-color: #FDFDFD;
+  box-shadow: 1px 1px whitesmoke;
+  margin-bottom: 30px;
+}
+
+
+.NFT-fight-waiting-NFT{
+  overflow: hidden;
+  height: 100%;
+  width: 50%;
+}
+
+
+.fight-container-left{
+  width: 40%;
+  float:left;
+}
+
+.fight-container-right{
+  
+  width: 60%;
+  height:100%;
+  float:right;
+  border-left: 1px solid ghostwhite;
+  padding-left:15%;
+  overflow: hidden;
+}
+
+.NFT-show-image{
+  width: 291px;
+  height: 210px;
+}
+
+
+.NFT-fight-image{
+  width: 100%;
+  height: 279px;
+}
+
+.NFT-fight-image-cont{
+  width: 100%;
+  height: 100%;
+
+}
+
+.NFT-sale-cont{
+  display:flex;
+
+}
+
+.btn-send-NFT-rewards{
+
+  position:absolute;
+  z-index: 10;
+  left: 173px;
+  top: 40px;
+}
+
+.NFT-sale-card{
+  margin-top: 30px;
+  margin-right: 30px;
+  float:left;
+  width: 251px;
+  height: 335px;
+  border: 1px solid #F8F8FF;
+  box-shadow: 1px 1px whitesmoke;
+}
+
+.NFT-sale-image-cont{
+
+  overflow: hidden;
+}
+
+.NFT-sale-content{
+
+}
+
+.NFT-sale-image{
+  width: 100%;
+  height: 200px;
+
+}
+
+
+.btn-buy-NFT{
+  margin-bottom: 5px;
+}
+
+.NFT-details-cont{
+  margin-top: 50px; 
+  height: 500px;
+}
+
+.sale-container{
+  margin-bottom: 30px;
+}
+
+.mint-NFT-input-file{
+  width: 220px;
+}
+
+.NFT-details-content{
+  margin-top: -100px;
+  font-size: 20px;
+  text-align: left;
+  margin-left: 150px;
+
+}
+
+.NFT-details-content > *{
+  margin-top: 5px;
+
+  
+}
+
+.NFT-details-image{
+  height: 450px;
+}
+
+.shila-NFT-menu{
+  width: 60%;
+  float:left;
+}
+
+.show-NFTs{
+  width: 40%;
+  float:left;
+  display:none;
+}
+
+
+.btns-main-NFT{
+  display:flex;
+}
+.btn-main{
+  float:right;
+  width: 50%;
+  background-color: #F8F8FF;
+  cursor:pointer;
+  border: 1px solid #DEDEDE;
+  height: 30px;
+  margin-bottom: 10px;
+}
+.btn-main:hover{
+  background-color: #DEDEDE;
+}
+.btn-coin{
+  border-left: 1px solid lightblue;
+  padding-left: 3px;  
+
+}
+
+.main-div{
+
+  background-color: #FCFCFC;
+  padding: 10px;
+  height: 400px;
+
+}
+
+.main-coin{
+  border-right: 1px solid light;
+
+  
+
+}
+
+.main-NFT{
+
+  display:none;
+}
+
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  
+}
+
+.title {
+  z-index: 10;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  inset: 0;
+  margin: 0;
+  flex-direction: column;
+}
+
+.subtitle {
+  margin-top: .5rem;
+}
+
+.hide {
+  display: none;
+}
+
+.bird {
+  --bird-top: -1000;
+  --bird-size: 60px;
+  position: absolute;
+  background-color: hsl(50, 75%, 50%);
+  width: var(--bird-size);
+  height: var(--bird-size);
+  left: var(--bird-size);
+  top: calc(var(--bird-top) * 1px);
+  border-radius: 50%;
+}
+
+.pipe {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: calc(var(--pipe-width) * 1px);
+  left: calc(var(--pipe-left) * 1px);
+}
+
+.pipe > .segment {
+  position: absolute;
+  width: 100%;
+  background-color: hsl(100, 75%, 50%);
+}
+
+.pipe > .top {
+  top: 0;
+  bottom: calc(var(--hole-top) * 1px);
+}
+
+.pipe > .bottom {
+  bottom: 0;
+  top: calc(100vh - (var(--hole-top) * 1px) + calc(var(--hole-height) * 1px));
+}
